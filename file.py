@@ -12,3 +12,12 @@ num = int(input("Enter a number: "))
 # Calculate and print factorial
 result = factorial(num)
 print(f"The factorial of {num} is {result}")
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
+
+# Test the function
+number = 5
+print(f"Factorial of {number} is {factorial(number)}")
+
